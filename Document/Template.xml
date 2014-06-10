@@ -1,0 +1,63 @@
+<!--
+	n <-> Node
+	p <-> Sprite
+	s <-> Sound
+	a <-> Action
+-->
+
+<nodes>
+	<n id="531fff10-000001d7">
+		<!--
+			id			Flash里面的itemID，可以保证不重复
+			t			起始相对时间点，相对父级节点
+			d			持续时长
+			x,y			初始位置坐标，默认值0
+			z			显示层级关系，值越大显示越靠前，即值大的遮盖值大的
+			ax,ay		初始锚点坐标，默认值0.5
+			r			初始旋转角度，默认值0
+			sx,sy		初始缩放比例，默认值1
+			ca			初始不透明度，0全透明；1不透明；默认值是1
+			cr,cg,cb	初始颜色变换值，0表示亮度为0；1表示亮度全开；默认值是1
+		-->
+		<n id="532005d4-000001ee" t="1.0" d="0" x="0.0" y="0.0" z="0" ax="0.5" ay="0.5" r="0.0" sx="1" sy="1" ca="255" cr="255" cg="255" cb="255">
+			<a type="Sequence">
+				<a type="EaseIn" r="1.2">
+					<a type="Spawn">
+						<a type="MoveBy" d="2" x="12" y="230"></a>
+						<a type="RotateBy" d="2" x="-30" y="0"></a>
+						<a type="SkewTo" d="2" x="15" y="0"></a>
+						<a type="ScaleTo" d="2" x="2" y="2"></a>
+						<a type="FadeIn" d="2"></a>
+						<a type="Shake" d="2" x="2" y="2" r="10"></a>
+						<a type="TintTo" d="2" r="1" g="1" b="1"></a>
+					</a>
+				</a>
+				<a type="EaseOut" r="1.5">
+					<a type="Spawn">
+						<a type="MoveBy" d="2" x="-12" y="-230"></a>
+						<a type="RotateBy" d="2" x="30" y="0"></a>
+						<a type="SkewTo" d="2" x="0" y="0"></a>
+						<a type="ScaleTo" d="2" x="1" y="1"></a>
+						<a type="FadeOut" d="2"></a>
+						<a type="TintTo" d="2" r="0" g="0" b="0"></a>
+					</a>
+				</a>
+			</a>
+		</n>
+	</n>
+	<n id="532005d4-000001ee">
+		<!--
+			img			图片名字，用TexturePacker组装成plist后是图片标识名
+		-->
+		<p img="effect1.png" t="1.0" d="0" x="0.0" y="0.0" z="0" ax="0" ay="1" r="0.0" sx="1" sy="1" ca="255" cr="255" cg="255" cb="255"/>
+		<p img="effect1.png" t="1.0" d="0" x="0.0" y="0.0" z="0" ax="0" ay="1" r="0.0" sx="1" sy="1" ca="255" cr="255" cg="255" cb="255"/>
+		<!--
+			file		声音文件名
+			loop		声音是否重复播放
+			pitch		声音频率控制[0..1]
+			pan			声音声道控制[-1..1]，-1左声道，1右声道，0左右平均
+			gain		声音音量控制[0..1]
+		-->
+		<s file="sound.mp3" t="0" d="0" loop="false" pitch="1" pan="0.5" gain="1"/>
+	</n>
+</nodes>

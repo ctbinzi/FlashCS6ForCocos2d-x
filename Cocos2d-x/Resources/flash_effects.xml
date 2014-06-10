@@ -1,0 +1,110 @@
+<nodes>
+  <n id="5332958a-000001da">
+    <p img="effect1.png" t="0.000" d="0" x="-87" y="172" ax="0" ay="1" z="1"/>
+  </n>
+  <n id="531e636b-000001db">
+    <p img="effect2.png" t="0.000" d="0" x="-86" y="56" sx="0.430" sy="0.430" ax="0" ay="1" z="1"/>
+  </n>
+  <n id="5313e070-000001fa">
+    <p img="8.png" t="0.000" d="0" x="-53" y="92" sx="0.500" sy="0.500" ax="0" ay="1" z="1"/>
+  </n>
+  <n link="EFFECT1" id="533295a5-000001de">
+    <n id="5332958a-000001da" t="0.000" x="-2" y="-34" r="-84.0" sx="1.000" sy="1.000" ca="0.43">
+      <a type="Sequence">
+        <a type="Spawn">
+          <a type="RotateBy" d="0.167" x="84.0" y="84.0"/>
+          <a type="FadeIn" d="0.167"/>
+        </a>
+        <a type="Spawn">
+          <a type="MoveBy" d="0.150" x="2" y="0."/>
+          <a type="RotateBy" d="0.150" x="129.5" y="129.5"/>
+          <a type="FadeOut" d="0.150"/>
+        </a>
+      </a>
+    </n>
+  </n>
+  <n link="EFFECT2" id="533295a2-000001dd">
+    <n id="531e636b-000001db" t="0.000" x="113" y="53" ca="0.49">
+      <a type="Sequence">
+        <a type="EaseOut" r="2.5">
+          <a type="Spawn">
+            <a type="MoveBy" d="0.150" x="-110" y="-52"/>
+            <a type="FadeIn" d="0.150"/>
+          </a>
+        </a>
+        <a type="EaseIn" r="2.5">
+          <a type="Spawn">
+            <a type="MoveBy" d="0.167" x="-119" y="-70"/>
+            <a type="FadeOut" d="0.167"/>
+          </a>
+        </a>
+      </a>
+    </n>
+  </n>
+  <n link="EFFECT3" id="5333f886-00000213">
+    <p img="effect1.png" t="0.000" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.017" d="0.017" x="-75" y="67" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.033" d="0.017" x="-63" y="97" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.050" d="0.017" x="-113" y="65" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.067" d="0.017" x="-118" y="118" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.083" d="0.017" x="-76" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.100" d="0.017" x="-116" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.117" d="0.017" x="-88" y="64" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.133" d="0.017" x="-88" y="111" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.150" d="0.017" x="-113" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.167" d="0.017" x="-68" y="58" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.183" d="0.017" x="-106" y="99" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.200" d="0.017" x="-88" y="110" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.217" d="0.017" x="-55" y="96" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.233" d="0.017" x="-114" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.250" d="0.017" x="-88" y="59" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.267" d="0.017" x="-88" y="103" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.283" d="0.017" x="-69" y="100" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.300" d="0.017" x="-109" y="98" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.317" d="0.017" x="-75" y="58" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.333" d="0.017" x="-118" y="58" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.350" d="0.017" x="-125" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.367" d="0.017" x="-88" y="61" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.383" d="0.017" x="-88" y="109" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.400" d="0.017" x="-64" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.417" d="0.017" x="-106" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.433" d="0.017" x="-88" y="118" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.450" d="0.017" x="-72" y="59" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.467" d="0.017" x="-104" y="101" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.483" d="0.017" x="-62" y="99" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.500" d="0.017" x="-104" y="60" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.517" d="0.017" x="-137" y="109" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.533" d="0.017" x="-88" y="61" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.550" d="0.017" x="-75" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.567" d="0.017" x="-73" y="50" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.583" d="0.017" x="-100" y="70" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.600" d="0.017" x="-88" y="115" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.617" d="0.017" x="-116" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.633" d="0.017" x="-71" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.650" d="0.017" x="-88" y="108" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.667" d="0.017" x="-88" y="65" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.683" d="0.017" x="-106" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.700" d="0.017" x="-88" y="97" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.717" d="0.017" x="-78" y="58" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.733" d="0.017" x="-88" y="92" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.750" d="0.017" x="-97" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.767" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.783" d="0.017" x="-72" y="64" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.800" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.817" d="0.017" x="-114" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.833" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.850" d="0.017" x="-88" y="126" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.867" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.883" d="0.017" x="-72" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.900" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.917" d="0.017" x="-124" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.933" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.950" d="0.017" x="-88" y="99" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.967" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="0.983" d="0.017" x="-109" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="1.000" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="1.017" d="0.017" x="-88" y="51" ax="0" ay="1" z="1"/>
+    <p img="effect1.png" t="1.033" d="0.017" x="-88" y="82" ax="0" ay="1" z="1"/>
+    <p img="effect2.png" t="1.050" d="0.017" x="-113" y="54" sx="0.607" sy="0.358" ax="0" ay="1" z="1"/>
+  </n>
+</nodes>
