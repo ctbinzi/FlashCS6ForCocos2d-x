@@ -1,4 +1,4 @@
-FlashCSForCocos2d-x
+FlashCS6ForCocos2d-x
 ===================
 
 该项目的目标是使用FlashCS工具来设计COCOS2D-X动画。
