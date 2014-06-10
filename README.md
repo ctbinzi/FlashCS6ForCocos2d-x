@@ -18,7 +18,3 @@ FlashCS6ForCocos2d-x
 /Document/卡牌游戏动作编辑器功能说明.docx 该文档描述了Flash关键帧动画与Cocos2d-x的Action动画之间的转换关系。
 
 /Art/Flash/Actions 是一个FlashCS6项目的xlf格式存档
-
---------------------------------
-
-注：由于git无法提交已编译好的库文件，导致VS打开
